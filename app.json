@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "ttg-stats",
     "name": "ttg-stats",
     "slug": "ttg-stats",
     "version": "1.0.0",
