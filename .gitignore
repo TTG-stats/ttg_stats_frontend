@@ -13,6 +13,7 @@ web-build/
 *.bsb.lock
 .merlin
 lib/**
+# *.bs.*
 
 # macOS
 .DS_Store
