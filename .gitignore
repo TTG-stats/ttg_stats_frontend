@@ -9,5 +9,10 @@ npm-debug.*
 *.orig.*
 web-build/
 
+# ReScript
+*.bsb.lock
+.merlin
+lib/**
+
 # macOS
 .DS_Store
