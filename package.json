@@ -1,5 +1,12 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,18 +17,26 @@
     "re:start": "bsb -make-world -clean-world -w"
   },
   "dependencies": {
+    "@rescript-bindings/rnui": "0.0.1",
+    "@rescript-bindings/expo": "^40.0.1",
     "@rescript/react": "^0.10.1",
     "expo": "~40.0.0",
+    "expo-random": "^11.0.0",
     "expo-status-bar": "~1.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.1.0",
+    "react-native-ui-lib": "^5.22.0",
     "react-native-web": "~0.13.12",
     "rescript-react-native": "^0.64.2"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
-    "bs-platform": "^9.0.2"
-  },
-  "private": true
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "bs-platform": "^9.0.2",
+    "typescript": "~4.0.0"
+  }
 }
