@@ -9,7 +9,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "re:build": "bsb -make-world -clean-world",
-    "re:start": "bsb -make-world -clean-world -w"
+    "re:start": "bsb -make-world -clean-world -w",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.14.1",
@@ -30,6 +31,8 @@
     "expo-sqlite": "~8.5.0",
     "expo-status-bar": "~1.0.3",
     "i18next": "^19.9.2",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-i18next": "^11.8.10",
