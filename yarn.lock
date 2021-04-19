@@ -1839,6 +1839,11 @@
   resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.10.2.tgz#170d2a5ff34ad09cd614d92467d5efad95202794"
   integrity sha512-Qe21P4WnrmrbhbEMQ4dpaXC1/iMMc7JmqjuSpZouSP+s41K5dCXUGY9sds30gajU74lSfJdG2PzSDYcNAcDyVA==
 
+"@ryyppy/rescript-promise@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ryyppy/rescript-promise/-/rescript-promise-2.0.0.tgz#e0f31e8d5d85a822485113d34d3e5ee77c7e8523"
+  integrity sha512-Nyej9ESV32rG+fxDlK+BtmSiN4mAQ6vCYxYNuU7LqGXKUmr9XiiEbLYEtQXKg3KDpMfKZTwbyjyj2LOiCHrAmQ==
+
 "@types/hammerjs@^2.0.36":
   version "2.0.39"
   resolved "https://registry.yarnpkg.com/@types/hammerjs/-/hammerjs-2.0.39.tgz#4be64bbacf3813c79c0dab895c6b0fdc7d5e513f"

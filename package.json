@@ -24,6 +24,7 @@
     "@react-navigation/stack": "^5.14.3",
     "@rescript-bindings/expo": "^40.0.1",
     "@rescript/react": "^0.10.1",
+    "@ryyppy/rescript-promise": "^2.0.0",
     "expo": "~40.0.0",
     "expo-app-auth": "~9.3.0",
     "expo-localization": "~9.1.0",

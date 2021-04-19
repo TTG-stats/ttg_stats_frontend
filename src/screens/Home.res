@@ -1,6 +1,8 @@
+open Promise
 open ReactNative
+open ReactNavigation
 
-let test = "Home component"->React.string
+let homeText = "Home component"->React.string
 
 @react.component
 let make = (~navigation, ~route) => {
@@ -8,11 +10,21 @@ let make = (~navigation, ~route) => {
   // <ReactNative.Text>{test}</ReactNative.Text>
 
   React.useEffect0(() => {
-    let isWelcomeScreenAlreadyShown = AsyncStorage.getItem("@isWelcomeScreenAlreadyShown")
+    AsyncStorage.getItem("@isWelcomeScreenAlreadyShown")
+    ->then(data => {
+      let option = data->Js.Null.toOption
 
-    // isWelcomeScreenAlreadyShown
-    Some(() => ())
+      switch option {
+      | Some(_) => ()
+      | None => ()
+      }
+
+      resolve()
+    })
+    ->ignore
+
+    None
   })
 
-  <View> <Text> {"Home"->React.string} </Text> </View>
+  <View> <Text> {homeText} </Text> </View>
 }
