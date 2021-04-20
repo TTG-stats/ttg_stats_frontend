@@ -19,6 +19,7 @@ const HomeScreen = ({ navigation }: Props) => {
         ? null
         : navigation.replace(ScreensList.Welcome);
     })();
+
   }, []);
   return (
     <View>

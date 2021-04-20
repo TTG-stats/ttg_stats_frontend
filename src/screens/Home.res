@@ -1,6 +1,5 @@
 open Promise
 open ReactNative
-open ReactNavigation
 
 let homeText = "Home component"->React.string
 
@@ -26,5 +25,5 @@ let make = (~navigation, ~route) => {
     None
   })
 
-  <View> <Text> {homeText} </Text> </View>
+  <View> <Rnui.Text> {homeText} </Rnui.Text> </View>
 }
