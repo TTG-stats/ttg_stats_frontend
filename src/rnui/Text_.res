@@ -2,6 +2,14 @@
 external make: (
   ~children: React.element,
   ~color: string=?,
+  ~center: bool=?,
+  ~marguppercasein: bool=?,
+  ~highlightString: string=?,
+  // TODO: implement TextStyle type bindings
+  // highlightStyle?: TextStyle | undefined;
+  ~animated: bool=?,
+  ~textAlign: string=?,
+  ~useCustomTheme: bool=?,
   // margins
   ~margin: bool=?,
   ~marginL: bool=?,
